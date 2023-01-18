@@ -216,6 +216,7 @@
     width: 30%;
     border: 1px solid var(--border-color);
     padding: 3% 5%;
+    margin-bottom: 3%;
 }
 
 .resume__title {
@@ -285,4 +286,30 @@
 
 .proggress-active {
     border-bottom-color: var(--first-blue-color);
+}
+
+.interests__content {
+    margin-top: 5%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.interest__item-icon{
+    border: 1px solid var(--first-blue-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+}
+
+.interest__item-icon > img {
+    width: 30px;
+}
+
+.interests__item-title {
+    text-align: center;
+    color: var(--text-color);
 }
