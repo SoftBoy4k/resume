@@ -14,7 +14,7 @@
 }
 
 .header {
-    background: no-repeat center/100% url("./img/background.jpg");
+    background: no-repeat center/110% url("./img/background.jpg");
     height: 600px;
     padding-top: 10%;
     padding-left: 10%;
@@ -103,7 +103,7 @@
 
 .about__me {
     width: 34%;
-    padding: 5% 3%;
+    padding: 7% 3% 5% 3%;
     background-color: #f1f1f1;
 }
 
@@ -141,7 +141,7 @@
 
 .about__contact {
     width: 33%;
-    padding: 5% 3%;
+    padding: 7% 3% 5% 3%;
     background-color: #eaeaea;
 }
 
@@ -170,7 +170,7 @@
 
 .about__expertise {
     width: 33%;
-    padding: 5% 3%;
+    padding: 7% 3% 5% 3%;
     background-color: #f1f1f1;
 }
 
@@ -288,11 +288,22 @@
     border-bottom-color: var(--first-blue-color);
 }
 
+.resume__interests {
+    padding: 5% 2%;
+}
+
+.interests__title {
+    margin-left: 10%;
+}
+
 .interests__content {
+    margin: 0 auto;
     margin-top: 5%;
     list-style: none;
     display: flex;
     justify-content: space-between;
+    max-width: 250px;
+    width: 100%;
 }
 
 .interest__item-icon{
