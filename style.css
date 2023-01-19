@@ -52,10 +52,14 @@
 
 
 .navbar {
+    position: sticky;
+    top: 0;
+    z-index: 9;
     height: 60px;
     box-shadow: 1px 1px 10px var(--border-color);
     display: flex;
     justify-content: center;
+    background-color: var(--white-color);
 }
 
 .navbar__logo {
@@ -63,8 +67,11 @@
     margin-left: 10px;
 }
 
-.navbar__nav {
+.navbar__link:link,
+.navbar__link:visited {
+    color: black;
     border-right: 1px solid var(--border-color);
+    text-decoration: none;
     width: 150px;
     height: 60px;
     display: flex;

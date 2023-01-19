@@ -14,36 +14,38 @@
             <h1 class="title__name">Vladislav Pimoshenko</h1>
             <p class="title__position">Front-end developer</p>
         </div>
-        <button class="show-resume">
-            See my resume
-        </button>
+        <a href="https://docs.google.com/document/d/1flZ8oZS_GT3KrnLzEqfjDE-dFnG7p8uo/edit?usp=sharing&ouid=105755798097312762209&rtpof=true&sd=true">
+            <button class="show-resume">
+                See my resume
+            </button>
+        </a>
     </header>
-    <div class="navbar">
-        <nav class="navbar__nav navbar__home">
+    <nav class="navbar">
+        <a class="navbar__link navbar__home" href="#">
             Home 
             <img class="navbar__logo" src="./img/home.png">
-        </nav>
-        <nav class="navbar__nav navbar__resume">
+        </a>
+        <a class="navbar__link navbar__resume" href="#resume">
             Resume
             <img class="navbar__logo" src="./img/resume.png">
-        </nav>
+        </a>
         <img class="my-photo" src="./img/my-photo.jpg">
-        <nav class="navbar__nav navbar__about">
+        <a class="navbar__link navbar__about" href="#about">
             About
             <img class="navbar__logo" src="./img/about.png">
-        </nav>
-        <nav class="navbar__nav navbar__contact">
+        </a>
+        <a class="navbar__link navbar__contact" href="#contact">
             Contact
             <img class="navbar__logo" src="./img/contact.png">
-        </nav>
-    </div>
+        </a>
+    </nav>
 
-    <div class="about">
+    <div class="about" id="about">
         <div class="about__me">
             <h2 class="me__header">How am I?</h2>
             <h3 class="me__title">A Talented Front-end Developer</h3>
             <p class="me__text">The goal is to become a Senior level developer. Personal qualities: learning ability, diligence, sociability, desire to master new technologies and tools.</p>
-            <button class="me__button">show my resume</button>
+            <a href="https://docs.google.com/document/d/1flZ8oZS_GT3KrnLzEqfjDE-dFnG7p8uo/edit?usp=sharing&ouid=105755798097312762209&rtpof=true&sd=true"><button class="me__button">show my resume</button></a>
         </div>
 
         <div class="about__contact">
@@ -79,7 +81,7 @@
         </div>
     </div>
 
-    <main class="resume">
+    <main class="resume" id="resume">
         <h2 class="resume__header">My Resume</h2>
         <div class="resume__element">
             <div class="resume__title">
@@ -222,7 +224,7 @@
         </div>
     </main>
 
-    <footer class="footer">
+    <footer class="footer" id="contact">
         <p class="footer__title">My contacts:</p>
         <ul class="footer__contacts">
             <li class="footer__item">
