@@ -313,3 +313,34 @@
     text-align: center;
     color: var(--text-color);
 }
+
+.footer {
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: space-between;
+    padding: 3% 5%;
+    align-items: center;
+}
+
+.footer__title {
+    font-size: 25px;
+    color: var(--text-color);
+}
+
+.footer__contacts {
+    max-width: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.footer__icon{
+    width: 40px;
+    transition: 0.13s ease-in-out;
+    padding-bottom: 5%;
+}
+
+.footer__icon:hover{
+    border-bottom: 1px solid var(--first-blue-color);
+}
