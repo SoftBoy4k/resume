@@ -85,7 +85,7 @@
     border-left: 1px solid var(--border-color);
 }
 
-.navbar__nav:hover {
+.navbar__link:hover {
     padding-right: 3px;
     padding-bottom: 3px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
